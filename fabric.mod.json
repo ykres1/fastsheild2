@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fastshield",
+  "version": "${version}",
+  "name": "Fast Shield",
+  "description": "Shields start blocking after 3 ticks instead of 5.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.fastshield.FastShield"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
